@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+body {
+    background: url(img/bkJ-g4.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+}
+
+
+h1 {
+    color: darkorange;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    padding: 10px;
+}
+#message-el {
+    font-style: italic;
+}
+button {
+    text-transform: uppercase;
+    color: rgb(13, 122, 13);
+    border: 1px solid rgb(0, 112, 75);
+    background-color: rgb(255, 217, 0);
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: yellow;
+    transform: scale(1.5);
+}
+#player-el {
+    padding-top: 10px;
+}
